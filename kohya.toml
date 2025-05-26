@@ -1,0 +1,19 @@
+[[datasets]]
+batch_size = 4
+resolution = [1024, 1024]
+enable_bucket = true
+min_bucket_reso = 256
+max_bucket_reso = 2048
+
+  [[datasets.subsets]]
+  image_dir = '/workspace/kohya_ss/PERSONAL/DATASET/imagefolder'
+  num_repeats = 6
+  color_aug = false
+  flip_aug = false
+  random_crop = false
+  shuffle_caption = false
+  keep_tokens = 1
+  is_reg = false
+  
+  
+
